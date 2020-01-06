@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sunshiney&display=swap');
+
+body {
+    margin: auto;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background: url('background.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: color-burn;
+    /* background-color: white; */
+    padding: 0 50px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, .5));
+    color: black;
+}
+
+h1 {
+    padding: 20px;
+    background-color: goldenrod;
+    color: white;
+    border: solid 3px darkgoldenrod;
+    margin: 50px auto;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, .5));
+    font-size: 3em;
+    font-family: 'Sunshiney', cursive;
+}
+
+h2, h3, h4, h5, h6 {
+    padding: 20px;
+    color: black;
+    font-size: 2em;
+    font-family: 'Sunshiney', cursive;
+}
+
+.success {
+    z-index: 2;
+    width: 30%;
+    margin: 0 auto;
+    font-family: 'Sunshiney', cursive;
+}
+
+.error {
+    z-index: 2;
+    width: 30%;
+    margin: 0 auto;
+    background: red;
+    color: white;
+}
+
+button {
+    color: white;
+    background-color: goldenrod;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, .5));
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 15px;
+    font-family: 'Sunshiney', cursive;
+}
+
+input {
+    border-radius: 5px;
+    font-family: 'Sunshiney', cursive;
+    color: goldenrod;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+a {
+    font-family: 'Sunshiney', cursive;
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    width: 100%;
+    grid-auto-rows: min-content;
+}
+
+.gallery img {
+    width: 100%;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, .5));
+    margin: 5px auto;
+    height: auto;
+    object-fit: cover;
+}
+
+.log {
+    float: right;
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+}
+
+.log-option {
+    background-color: white;
+    /* margin: 10px auto; */
+    display: block;
+    margin: 10px auto;
+    padding:  10px;
+    width: max-content;
+
+}
+
+p, label {
+    font-size: 1.5em;
+}
+
+
